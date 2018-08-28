@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 
   if (argc !=2)
   {
-    perror("Too few arguments");
+    fprintf(stderr, "Usage: %s process\n", argv[0]);
     return 1;
   }
 
